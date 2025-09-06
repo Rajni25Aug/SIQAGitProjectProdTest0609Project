@@ -14,7 +14,7 @@ packages:
   gitUsername: Rajni25Aug
   gitBranch: main
 services:
-- serviceName: project.siqagitprojectprodtest0609.integrations:test1
+- serviceName: project.siqagitprojectprodtest0609.integrations:Copy_test1
   packages:
   - name: SIQAGitProjectProdTest0609Project
     version: "1.0"
@@ -24,6 +24,12 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2070
+- serviceName: project.siqagitprojectprodtest0609.integrations:test1
+  packages:
+  - name: SIQAGitProjectProdTest0609Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
 - serviceName: project.siqagitprojectprodtest0609.integrations:testTpp
   packages:
   - name: SIQAGitProjectProdTest0609Project
